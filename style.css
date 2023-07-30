@@ -1,0 +1,124 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.card-container {
+    display: flex;
+    justify-content:space-between; 
+    max-width:950px; 
+    margin: 20px auto;
+  
+  }
+  
+  .Card {
+    max-height: 750px;
+    max-width: 300px; 
+    display: flex;
+    flex-direction: column; 
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+
+.card-Bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: grey;
+    height: 55px;
+    width: 300px;
+    font-size: small;
+    
+    
+}
+
+.cerchio{
+    margin-left: 5px;
+    width: 40px; 
+    height: 40px; 
+    background-color: white;
+    border-radius: 50%;
+}
+
+.Card1testo{
+    display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: start;
+  margin-left: 4px;
+}
+
+
+.Card1testo h4,
+.Card1testo p{
+    margin: 2px;
+}
+
+.Card1testo p{
+    color: white;
+}
+
+
+.cerchi{
+    margin-right: 5px;
+    width: 5px; 
+    height: 5px; 
+    background-color: black;
+    border-radius: 50%;
+}
+
+
+.paragrafo{
+    background-color: #ccccff;
+    width: 300px;
+    height: auto;
+
+ 
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: start;
+    margin-top: -5px;
+    margin-bottom: -17px;
+    background-color: #ccccff;
+  }
+  
+  button {
+  background: none;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+
+@media (max-width: 768px) {
+    .card-container {
+
+      flex-wrap:wrap; 
+      justify-content: start; 
+      width: 100%;
+    }
+  
+    .Card {
+      width: 45%; 
+      margin: 10px; 
+     
+    }
+}
+  
+
+  @media (max-width: 375px) {
+    .Card {
+      width: 90%; 
+      margin: 10px auto; 
+      margin-bottom: 0;
+    }
+  }
+
+  
+  
+  
+  
